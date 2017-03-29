@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<widgets>
+    <feature_products type="featureproducts/widget_product" translate="name description" module="featureproducts">
+        <name>Featured Product</name>
+        <description>List of Products that are set as Featured</description>
+        <parameters>
+            <display_number>
+                <label>Number of products to display</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>text</type>
+                <value>5</value>
+            </display_number>
+            <product_image>
+                <label>Display product images</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>select</type>
+                <value>1</value>
+                <source_model>adminhtml/system_config_source_yesno</source_model>
+            </product_image>
+            <product_price>
+                <label>Display product prices</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>select</type>
+                <value>1</value>
+                <source_model>adminhtml/system_config_source_yesno</source_model>
+            </product_price>
+        </parameters>
+    </feature_products>
+</widgets>

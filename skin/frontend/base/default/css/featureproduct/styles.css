@@ -1,0 +1,18 @@
+.feature-products-grid {
+    clear: left;
+}
+
+.feature-products-grid li.item {
+    width: 20%;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+.feature-products-grid li.item a {
+    border: none;
+}
+
+.feature-products-grid li.item a img {
+    margin: 0 auto;
+}

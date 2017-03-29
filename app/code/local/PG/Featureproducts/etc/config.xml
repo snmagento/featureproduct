@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <PG_Featureproducts>
+            <version>0.1.0</version>
+        </PG_Featureproducts>
+    </modules>
+    <global>
+        <helpers>
+            <featureproducts>
+                <class>PG_Featureproducts_Helper</class>
+            </featureproducts>
+        </helpers>
+        <blocks>
+            <featureproducts>
+                <class>PG_Featureproducts_Block</class>
+            </featureproducts>
+        </blocks>
+        <resources>
+            <featureproducts_setup>
+                <setup>
+                    <module>PG_Featureproducts</module>
+                </setup>
+            </featureproducts_setup>
+        </resources>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <featureproducts>
+                    <file>pg/featureproduct.xml</file>
+                </featureproducts>
+            </updates>
+        </layout>
+    </frontend>
+</config>
